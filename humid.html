@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<!-- Weather Data HTML - Comparison Page-->
+<!-- Weather Data HTML - Humidity Page-->
 
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <title>Weather Comparison</title>
+  <title>Humidity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -16,11 +16,11 @@
   -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" type="text/css" href="style.css">  
-  <style>
+  <!-- <style>
     img {
       float: left;
     }
-  </style>
+  </style> -->
 </head>
 
 <body>
@@ -58,50 +58,54 @@
   <main class="bg-muted">
     <div class="container"> 
         <div class="row row-pd-20">
-            <div class="col-md-12 bg-white">
-            <div class="row">
-                <div class="col-md-12 bg-white">
-                    <div class="box">
-                    <h3 class="text-info font-tnr font-weight-bold pt-4">Comparison: Latitude vs. X</h3>
-                    <hr align="center">
-                    <br>
-                    Click any plot to get an in-depth analysis
-                    <br> <br>
+            <div class="col-md-6 bg-white" >   
+                <div class="row">
+                  <div class="col-md-12">
+                    <h3 class="text-info font-tnr font-weight-bold pt-4">Humidity</h3>
+                    <hr>  
+                  </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="humid.html"><img src="./Resources/assets/images/Fig2.png" width="100%"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu purus id erat vehicula eleifend. 
+                            Suspendisse rutrum ante quis arcu accumsan, at fringilla nibh lobortis. Sed venenatis porta tempus. Vivamus nec porttitor turpis. Donec egestas dui nec rutrum facilisis. 
+                            Quisque vehicula elit posuere, aliquam arcu et, suscipit erat. Aliquam a dolor sollicitudin, vestibulum elit quis, ullamcorper tellus.
+                    </p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 bg-white">
-                <div class="box">
-                    <h3 class="text-info font-tnr font-weight-bold pt-4">vs. Max Temperature</h3>        
-                    <a href="temp.html" alt="Temperature Plot"> <img src="Resources/assets/images/Fig1.png" width="100%"> </a>
+            <div class="col-md-5  offset-md-1 bg-white">
+                <div class="row">
+                  <div class="col-md-12">
+                  <h3 class="text-info font-tnr font-weight-bold pt-4">Visualizations</h3>
+                  <hr>  
+                  </div>
                 </div>
-                </div>
-            
-                <div class="col-md-6 bg-white">
-                <div class="box">
-                    <h3 class="text-info font-tnr font-weight-bold pt-4">vs. Humidity</h3>
-                    <a href="humid.html" alt="Humidity Plot"> <img src="Resources/assets/images/Fig2.png" width="100%"> </a>
-                </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 bg-white">
-                <div class="box">
-                    <h3 class="text-info font-tnr font-weight-bold pt-4">vs. Cloudiness</h3>
+
+              <div class="row">
+                  <div class="col-3 col-sm-3 col-md-6">
+                        <a href="temp.html" alt="Temperature Plot"><img src="Resources/assets/images/Fig1.png" width="100%">  </a>
+                  </div>
+                  <div class="col-3 col-sm-3 col-md-6">
+                    <a href="humid.html" alt="Humidity Plot"> <img src="Resources/assets/images/Fig2.png" width="100%" class="border border-info"> </a>
+                  </div>
+                  <div class="col-3 col-sm-3 col-md-6">
                     <a href="cloud.html" alt="Cloudiness Plot"> <img src="Resources/assets/images/Fig3.png" width="100%"> </a>
-                </div>
-                </div>   
-                <div class="col-md-6">
-                    <div class="box">
-                    <h3 class="text-info font-tnr font-weight-bold pt-4">vs. Wind Speed</h3>
+                  </div>
+                  <div class="col-3 col-sm-3 col-md-6">
                     <a href="wind.html" alt="Wind Speed Plot"> <img src="Resources/assets/images/Fig4.png" width="100%"> </a>
-                    </div>
+                  </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
+    </div>  
   </main>
 
 <footer class="foot mt-auto py-3 bg-secondary border-top border-info footer-top-5">

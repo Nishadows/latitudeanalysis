@@ -1,0 +1,46 @@
+
+.footer-top-5{
+    border-top-width: 5px !important
+}
+
+.font-tnr {
+    font-family: 'Times New Roman', Times, serif !important
+}
+
+.bg-muted{
+    background: rgb(0,0,0,0.04);
+}
+.nav-brand {
+   padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.row-pd-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 991px){
+    .dropdown-toggle {
+        background: rgb(0,0,0,0.04);
+    }
+
+    .nav-box {
+        background: rgb(23,162,184);
+    }
+
+    .nav-list {
+        background: #f8f9fa;
+    }
+
+    .h-a-c{
+        text-align: center; 
+    }
+
+    /* .table-responsive-md{
+        position: absolute;
+    } */
+}
